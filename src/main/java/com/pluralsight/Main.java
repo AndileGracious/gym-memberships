@@ -1,6 +1,7 @@
 package com.pluralsight;
 
 import java.math.BigDecimal;
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,14 +12,24 @@ public class Main {
        PremiumMembership frank = new PremiumMembership("Frank Miller", 3, new BigDecimal("30.00"), 0);
        FamilyMembership grace = new FamilyMembership("Grace Lee", 12, new BigDecimal("30.00"),3);
        FamilyMembership emma = new FamilyMembership("Emma Wilson", 6, new BigDecimal("30"), 1);
+
+
+
         System.out.println("=== Gym Memberships ===");
-        System.out.println("Henry Clark, 3 months, $30.00 per month");
-        System.out.println("Alice Johnson, 6 months, $25.00 per month");
-        System.out.println("Bob Smith, 2 months, $27.50 per month");
-        System.out.println("Carol White, 12 months, $48.50 per month");
-        System.out.println("Frank Miller, 3 months, $48.50 per month");
-        System.out.println("Grace Lee, 12 months, $60.75 per month");
-        System.out.println("Emma Wilson, 6 months, $42.50 per month");
+        ArrayList<Membership> myList = new ArrayList<Membership>();
+        myList.add(henry);
+        myList.add(alice);
+        myList.add(bob);
+        myList.add(carol);
+        myList.add(frank);
+        myList.add(grace);
+        myList.add(emma);
+
+        for (int i = 0; i < myList.size(); i++) {
+            System.out.println((myList.get(i)));
+
+        }
+
 
         System.out.println("--- Guest passes ---");
         carol.useGuestPass();
@@ -31,6 +42,8 @@ public class Main {
         System.out.println("Carol White: fee $" + carol.getSignUpFee() + ", total $" + carol.getContractTotal());
         System.out.println("Frank Miller: fee $" + frank.getSignUpFee() + ", total $" + frank.getContractTotal());
         System.out.println("Grace Lee: fee $" + grace.getSignUpFee() + ", total $" + grace.getContractTotal());
+
+
 
 
 
