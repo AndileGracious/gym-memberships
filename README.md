@@ -6,9 +6,7 @@ This app helps a gym keep track of its members and what they pay. It has one mai
 
 ## Class Diagram
 
-<!-- OPTIONAL. Only when the project asks for one (Capstone 2 onward). Export the diagram as a PNG into the
-     images folder and keep the line below. If your project has no class diagram, delete this whole section,
-     heading included. -->
+## my screenshots not showing my class diagram. Font color changes to white and could not show all the words at the same time
 
 width="1889" height="978" alt="Screenshot 2026-11-24 031313" src="https://github.com/user-attachments/assets/c46d8b21-5338-405d-ac65-a1a7d4e4ac9f" 
 <img width="1896" height="1008" alt="Screenshot 2026-11-24 031331" src="https://github.com/user-attachments/assets/a936639d-321e-48ce-b083-96a4b686c19a" />
@@ -80,7 +78,7 @@ width="1889" height="978" alt="Screenshot 2026-11-24 031313" src="https://github
 
 ## Future Work
 
-I would like to have a good class diagram hat is very clear and get to finish the whole project.
+I would like to have a good class diagram that is very clear and get to finish the whole project.
 
 
 ## Resources
