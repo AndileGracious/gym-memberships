@@ -20,11 +20,18 @@ public class Main {
         System.out.println("Grace Lee, 12 months, $60.75 per month");
         System.out.println("Emma Wilson, 6 months, $42.50 per month");
 
-        System.out.println("---Guest passes---");
+        System.out.println("--- Guest passes ---");
         carol.useGuestPass();
         carol.useGuestPass();
         carol.useGuestPass();
         frank.useGuestPass();
+
+        System.out.println("--- Sign-Up fee and contract total ---");
+        System.out.println("Henry Clark: fee $" + henry.getSignUpFee() + ", total $" + henry.getContractTotal());
+        System.out.println("Carol White: fee $" + carol.getSignUpFee() + ", total $" + carol.getContractTotal());
+        System.out.println("Frank Miller: fee $" + frank.getSignUpFee() + ", total $" + frank.getContractTotal());
+        System.out.println("Grace Lee: fee $" + grace.getSignUpFee() + ", total $" + grace.getContractTotal());
+
 
 
 
