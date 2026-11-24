@@ -49,5 +49,8 @@ public class Membership {
         return getMonthlyPrice().multiply(BigDecimal.valueOf(months)).add(getSignUpFee());
     }
 
-
+    @Override
+    public String toString() {
+        return "Membership | " + getMemberName() + " | " + getMonths() + " months";
+    }
 }
