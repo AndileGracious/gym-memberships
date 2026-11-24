@@ -35,6 +35,7 @@ public class Main {
 
         for (int i = 0; i < myList.size(); i++) {
             System.out.println((myList.get(i)));
+            System.out.println("Kind: " + myList.get(i).getMembershipKind());
 
         }
 
@@ -50,10 +51,6 @@ public class Main {
         System.out.println("Carol White: fee $" + carol.getSignUpFee() + ", total $" + carol.getContractTotal());
         System.out.println("Frank Miller: fee $" + frank.getSignUpFee() + ", total $" + frank.getContractTotal());
         System.out.println("Grace Lee: fee $" + grace.getSignUpFee() + ", total $" + grace.getContractTotal());
-
-
-
-
 
 
 

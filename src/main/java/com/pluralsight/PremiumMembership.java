@@ -46,4 +46,9 @@ public class PremiumMembership extends Membership{
     public String toString(){
         return "Premium | " + getMemberName() + " | " + getMonths() + " months | guest passes: " + getGuestPasses();
     }
+
+    @Override
+    public String getMembershipKind() {
+        return "Premium";
+    }
 }

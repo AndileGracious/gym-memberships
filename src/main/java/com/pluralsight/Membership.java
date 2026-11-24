@@ -62,4 +62,8 @@ public class Membership {
     public void setFrontDeskNotes(String frontDeskNotes) {
         this.frontDeskNotes = frontDeskNotes;
     }
+
+    public String getMembershipKind(){
+        return "Membership";
+    }
 }

@@ -32,4 +32,9 @@ public class BasicMembership extends Membership {
     public String toString(){
         return "Basic | " + getMemberName() + " | " + getMonths() + " months | off-peak only: " + isOffPeakOnly();
     }
+
+    @Override
+    public String getMembershipKind() {
+        return "Basic";
+    }
 }
