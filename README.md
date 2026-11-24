@@ -10,31 +10,27 @@ This app helps a gym keep track of its members and what they pay. It has one mai
      images folder and keep the line below. If your project has no class diagram, delete this whole section,
      heading included. -->
 
-![Class Diagram](images/class-diagram.png)
+width="1889" height="978" alt="Screenshot 2026-11-24 031313" src="https://github.com/user-attachments/assets/c46d8b21-5338-405d-ac65-a1a7d4e4ac9f" 
+<img width="1896" height="1008" alt="Screenshot 2026-11-24 031331" src="https://github.com/user-attachments/assets/a936639d-321e-48ce-b083-96a4b686c19a" />
+<img width="1606" height="1062" alt="class-diagram drawio" src="https://github.com/user-attachments/assets/ba9c46bb-997e-4d75-a7b2-f8a305d1b5fb" />
+<img width="1894" height="1004" alt="Screenshot 2026-11-24 031351" src="https://github.com/user-attachments/assets/da0d65e9-590c-4283-bef7-a99e63aa6d51" />
+
+
+
 
 ## Features
 
-<!-- One bullet per thing the app can do, in the order of your menu. Mark bonuses.
-     For an API (Capstone 3), one line per endpoint instead: method, path, what it does.
-     Be honest: list what works. If something is half done, say so under Future Work instead.
-     Example:
-     - Shows every product in the store
-     - Searches products by name (bonus) -->
+- Monthly price for each membership
+- Off-peak discount for BasicMembership
+- Guest passes for PremiumMembership
+- Extra member price for familyMembership
+- Family discount when 3 or more extra members
+- Sign-up fee, free for Premium with 12+ months
+- Contract total for each member
+- Clear print with toString
 
-- 
-- 
-- 
 
-## User Stories
 
-<!-- The stories you worked from, one per bullet, in the format you learned in Workbook 3b:
-     As a [type of user], I want [some goal] so that [some reason].
-     Same text as the cards on your GitHub project board. -->
-
-- As a ..., I want ..., so that ...
-- As a ..., I want ..., so that ...
-
-## Setup
 
 ### Prerequisites
 
@@ -43,28 +39,15 @@ This app helps a gym keep track of its members and what they pay. It has one mai
 
 ### Running the application
 
-1. Clone this repository, or download it as a zip and unzip it.
-2. In IntelliJ: File > Open, pick the project folder (the one that holds `pom.xml`), press Open.
-3. Wait for IntelliJ to finish indexing (progress bar at the bottom).
-4. Open `src/main/java/com/pluralsight/YourMainClassName.java`. <!-- replace YourMainClassName with the class that has main -->
-5. Right-click inside the file and choose Run 'YourMainClassName.main()'.
+1. src/main/java/Main.java
 
-### Data and configuration
 
-<!-- OPTIONAL. Anything the program needs that is not code: data files and where they must sit, files the
-     program creates, a database script to run first, a settings file to edit (connection, port).
-     If there is nothing, delete this subsection, heading included.
-     Example:
-     - `inventory.csv` sits at the project root, next to `pom.xml`. The program reads it at start.
-     - `logs.txt` is created by the program at the project root on the first run. -->
-
-- 
 
 ## Technologies Used
 
 - Java 17
 - IntelliJ IDEA
-<!-- Add anything else you used: a library, Maven plugins, an external tool. For a console app this list is short. That is fine. -->
+  
 
 ## Demo
 
@@ -97,26 +80,22 @@ This app helps a gym keep track of its members and what they pay. It has one mai
 
 ## Future Work
 
-<!-- What you would add or fix next, one bullet each. Unfinished bonuses belong here. -->
+I would like to have a good class diagram hat is very clear and get to finish the whole project.
 
-- 
-- 
 
 ## Resources
 
-<!-- What helped you: the workbook, the week's hub pages, a tutorial, a documentation page. Real links. -->
 
 - Java YearUp Fall 2026 hub: <https://raymaroun.github.io/yearup-java-fall2026/>
-- 
+- Youtube Videos for tutorials
 
 ## Author
 
-<!-- Your name and, if you like, your GitHub profile link. For a team workshop, one line per person with what each one built. -->
 
-- **Your Name**
+- Andile Gracious Ncube
 
 ## Thanks
 
-<!-- Optional. The people who helped: the instructor, a classmate who debugged with you, a mentor. -->
+I would  like to thank my instructor Raymond for teaching me the new skills
 
-- Thank you to ... for ...
+
