@@ -6,6 +6,7 @@ public class Membership {
     private String memberName;
     private int months;
     private BigDecimal baseRate;
+    private String frontDeskNotes;
 
     public Membership(String memberName, int months, BigDecimal baseRate) {
         this.memberName = memberName;
@@ -52,5 +53,13 @@ public class Membership {
     @Override
     public String toString() {
         return "Membership | " + getMemberName() + " | " + getMonths() + " months";
+    }
+
+    public String getFrontDeskNotes() {
+        return frontDeskNotes;
+    }
+
+    public void setFrontDeskNotes(String frontDeskNotes) {
+        this.frontDeskNotes = frontDeskNotes;
     }
 }
