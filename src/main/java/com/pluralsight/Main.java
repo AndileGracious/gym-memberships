@@ -13,6 +13,14 @@ public class Main {
        FamilyMembership grace = new FamilyMembership("Grace Lee", 12, new BigDecimal("30.00"),3);
        FamilyMembership emma = new FamilyMembership("Emma Wilson", 6, new BigDecimal("30"), 1);
 
+       henry.setFrontDeskNotes("likes morning check-in");
+       alice.setFrontDeskNotes("Wants a locker near the front");
+       bob.setFrontDeskNotes("Likes a quiet corner");
+       carol.setFrontDeskNotes("Loves spin class");
+       frank.setFrontDeskNotes("Needs help with form on the first day");
+       grace.setFrontDeskNotes("Brings company on weekends");
+       emma.setFrontDeskNotes("Prefers evening work outs");
+
 
 
         System.out.println("=== Gym Memberships ===");
